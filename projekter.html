@@ -1,27 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
     <head> 
-        <h1>Projekter</h1>
-    <title>ninas hjemmeside</title>
-    <meta charset="utf-8"/> 
-        <meta name="description" content=" dette er siden til min hjemmeside"/> 
+        <title>Ninas hjemmeside | Projekter</title>
+        <meta charset="utf-8"> <!-- definere karaktere tegnsæt -->
+        <meta name="description" content=" dette er siden til min hjemmeside"> <!-- En kort beskriveelse af siden -->
+        <meta name="keywords" content="HTML"> <!-- Bruges til Søgemaskiner -->
+        <meta name="author" content="Ninna"> <!-- Beskriver forfatteren af siden -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Indstiller viewport så siden ser godt på alle enheder -->
+        <link rel="stylesheet" href="style/style.css"> <!-- Link min ccs fil, som ligger i en mappe  -->
     </head>
-    <link rel="stylesheet" href="hjemmeside.css">
-    <img src="logo.png" alt="dette er et logo" width="300"
+    <header class="header">
+        <div class="topnav">
+            <a href="index.html"><img src="logo.png" class="nav-img"  alt="logo"></a>
+            <div class="topnav-right">
+                <a href="index.html" >Forside</a>
+                <a href="om-mig.html" >Om mig</a>
+                <a href="projekter.html" >Projekter</a>
+                <a href="kontakt-mig.html" >Kontakt</a>
+            </div>
+        </div>
 
-      
-<body>
-    <li><a href="index.html" class="button">Forside</a></li>
-    <li><a href="om mig.html" class="button">Om mig</a></li>
-    <li><a href="projekter.html" class="button">Projekter</a></li>
-    <li><a href="kontakt mig.html" class="button">Kontakt</a></li>
-    <img src="visitkort.png" alt="dette er et visitkort" width="300">
-    <img src="flyer.png" alt="dette er en flyer" width="300">
-    <img src="produktfoto.png" alt="dette er et billede" width="300">
-    <img src="produktfoto2.png" alt="dette er et billede" width="300">
-    <img src="portræt.png" alt="dette er et portræt" width="300">
-    <img src="smed.png" alt="dette er en smed" width="300">
-    <img src="smed2.png" alt="dette er en smed" width="300">
-    <body style="background-color: #d7d4d0"></body>
-</body> 
+    </header>
+
+
+
+
+    <div class="grid-container">
+        <div class="item2">
+            
+        </div>
+        <div class="item3"> 
+            <div class="left-side">
+                <div class="project-img" >
+                    <p class="img-text">text to image</p>
+                    <img src="logo.png" alt="dette er et billede" >
+                </div>
+
+                <div class="project-img">  
+                    <img src="Project.jpg" alt="dette er en smed" >
+                </div>
+                <div class="project-img">  
+                    <img src="flyer.png" alt="dette er en flyer" >
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="project-img">  
+                    <img src="Product.png" alt="dette er et billede" >
+                </div>
+                <div class="project-img">  
+                    <img src="visitkort.png" alt="dette er et visitkort" >
+                </div>
+                <div class="project-img">  
+                    <img src="Product1.png" alt="dette er et billede" >
+                </div>
+
+
+                <div class="project-img">  
+                    <img src="Project1.jpg" alt="dette er en smed" > 
+                </div>
+            </div>
+        </div>
+        <div class="item4">
+            <footer>
+                
+                <div class="main-logo">
+                    <h1>f</h1>
+                </div>
+                <div class="main-logo main-logo--im">
+                    <h1>in</h1>
+                </div>
+                <p class="footer-text">Copyright &COPY; 2025 af Nina Buch</p>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
 </html>
