@@ -9,7 +9,6 @@ body {
     height: 70px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
 }
 .nav-img {
@@ -167,11 +166,21 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px){
     .topnav-right a{
         font-size: 10px;
+        padding: 0 16px;
     }   
     .grid-container{
         grid-template-areas: "left left"
         "main main"
         "footer footer";
     }
+    .topnav{
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-img{height: 60px}
+    a{
+        text-align: center;
+    }
+    
 }
     
